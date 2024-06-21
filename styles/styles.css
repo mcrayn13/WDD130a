@@ -1,3 +1,6 @@
+main{
+    max-width: 840px;
+}
 nav {
     background-color: steelblue;
     padding: 20px;
@@ -12,7 +15,7 @@ nav a {
     color: steelblue;
  }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -21,5 +24,19 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
+}
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
+    padding: 1rem;
+    background-color: aliceblue;
+    color: aqua;
+    text-align: center;
+}
+aside img {
+    width: 200px;
+    height: auto;
 }
