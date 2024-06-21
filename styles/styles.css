@@ -18,9 +18,9 @@ nav a {
 main img {
     width: 150px;
     height: auto;
-    border: 1px solid steelblue;
+    border: 1px solid rgb(88, 137, 177);
     padding: 2px;
-    box-shadow: 0 0 30px gray;
+    box-shadow: 0 0 30px rgb(78, 73, 73);
 }
 
 p {
@@ -32,8 +32,8 @@ aside {
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, 0.2); /* 1 */
     padding: 1rem;
-    background-color: aliceblue;
-    color: aqua;
+    background-color: rgb(214, 220, 226);
+    color: rgb(42, 97, 97);
     text-align: center;
 }
 aside img {
