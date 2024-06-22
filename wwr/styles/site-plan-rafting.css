@@ -3,7 +3,7 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 960 px;
+    max-width: 900 px;
     padding: 20px;
 }
 :root {
