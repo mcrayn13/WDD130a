@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 14px;
+    font-size: 15px;
     font-family: Roboto, Arial, sans-serif
 }
 main{
@@ -12,13 +12,13 @@ main{
 }
 nav {
     background-color: steelblue;
-    padding: 20px;
+    padding: 10px;
 }
 
 nav a {
     color: rgb(159, 206, 201);
     display: block;
-    padding: 20px;
+    padding: 10px;
 }
  h1 {
     color: steelblue;
@@ -31,7 +31,7 @@ nav a {
     height: auto;
     border: 1px solid rgb(255, 255, 255);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(32, 99, 161);
+    box-shadow: 0 0 30px rgb(39, 94, 145);
     margin: 0 0 1rem 1rem;
 }
 
