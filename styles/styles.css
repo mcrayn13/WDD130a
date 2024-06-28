@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    font-size: 15px;
+    font-size: 14px;
     font-family: Roboto, Arial, sans-serif
 }
 main{
@@ -29,10 +29,9 @@ nav a {
     float: right;
     width: 150px;
     height: auto;
-    border: 1px solid rgb(88, 137, 177);
+    border: 1px solid rgb(255, 255, 255);
     padding: 2px;
-    box-shadow: 0 0 30px rgb(78, 73, 73);
-    
+    box-shadow: 0 0 30px rgb(32, 99, 161);
     margin: 0 0 1rem 1rem;
 }
 
