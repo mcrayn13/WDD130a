@@ -35,9 +35,19 @@ main {
 	font-family: Roboto, Arial, sans-serif;
 
 }
-
+.hero {
+    position: relative;
+}
 .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+ h1 {
+    position: absolute;
+    color: #395E66;
+ }
+ article {
+    position: absolute;
+    background-color: var(--nav-hover-background-color)
+ }
