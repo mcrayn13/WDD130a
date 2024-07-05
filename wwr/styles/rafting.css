@@ -35,9 +35,11 @@ main {
     position: relative;
 }
 .hero img {
-    display: block;
+    display: grid;
     width: 100%;
     height: auto;
+    grid-template-columns: repeat(autofill, minmax (150px, 1fr));
+    gap: 10px;
 }
  h1 {
     position: absolute;
@@ -47,3 +49,4 @@ main {
     position: absolute;
     background-color: var(--nav-hover-background-color)
  }
+ 
