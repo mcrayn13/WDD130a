@@ -45,15 +45,17 @@ header img {
 }
 nav {
     display: flex;
+    
+
+    list-style:none;
     text-align: right;
-    text-emphasis: none;
     margin: 1rem;
     font: 2em sans-serif;
     font-size: larger;
     
 }
 main {
-    display: flex;
+    display:grid;
     grid-template-rows: 1fr 2fr 3fr;
     align-items:center;
     max-width: 800px;
@@ -71,6 +73,7 @@ main {
 }
 main h1 {
     position: relative;
+
     
     
     
