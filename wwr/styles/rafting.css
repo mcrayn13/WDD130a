@@ -44,11 +44,10 @@ header img {
     background-color: var(--primary-color);
 }
 nav {
-  
-    text-align: left;
+    display: flex;
+    text-align: right;
     text-emphasis: none;
     margin: 1rem;
-	text-align: left;
     font: 2em sans-serif;
     font-size: larger;
     
