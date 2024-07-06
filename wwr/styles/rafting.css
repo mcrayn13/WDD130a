@@ -43,6 +43,7 @@ header img {
     height: auto;
     background-color: var(--primary-color);
 }
+
 nav {
     display: flex;
     
@@ -73,9 +74,6 @@ main {
 }
 main h1 {
     position: relative;
-
-    
-    
     
  }
 
