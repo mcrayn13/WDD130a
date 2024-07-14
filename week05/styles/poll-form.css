@@ -44,4 +44,11 @@ h1 {
     color: navy;
     font-size: 1.3em;
  }
+ label, input, button , select , textarea {
+    font-family: 'Times New Roman', Times, serif;
+ }
+ label {
+    text-align: right;
+    padding: 1rem;
+ }
  
