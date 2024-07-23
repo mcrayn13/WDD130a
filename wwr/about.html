@@ -13,14 +13,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+<div id="content">
     <header>
-        <img src="images/logo.png" width="500"      alt="Rafting site logo">
+        <a id="logo_link" href="../index.html">
+        <img class="logo" src="images/logo.png"  width="200"    alt="Rafting site logo"> </a>
         <nav>
             
             <a href="../index.html">Home</a>
-            <a href="#">About</a>
-            <a href="#">Trips</a>
-            <a href="#">Contact</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
         
         </nav>
 
@@ -28,18 +30,27 @@
 
         <main>
             <div class="hero">
-            <img src="images/rafting1.jpg" alt="rafting1">
-            <h1>Happy Water Rafting</h1>
+
+                <div id="hero-box">
+                
+                    <img id="hero-img-page"  src="images/rafting1.jpg" alt="rafting1">
+                </div>
+
+            <h1 id="page title" >Happy Water Rafting</h1>
             <article class="article">
-                <img src="images/rafting2.jpg" width="200" alt="rafting2">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vero, aliquid! Rem autem expedita ducimus explicabo alias ipsum voluptas, beatae quae, ipsam perspiciatis dolorum! Debitis obcaecati modi officia laboriosam! Est, magnam?</p>
+                
+                <img src="images/rafting2.jpg"  alt="rafting2">
+                <p id="page-msg">Welcome to the Thrilling World of Whitewater Rafting!
+
+                    Picture this: You’re standing on the riverbank, the sun warming your skin, and the sound of rushing water filling the air. Your heart races with anticipation. You’re about to embark on a wild ride—one that blends adrenaline, camaraderie, and the raw power of nature. Welcome to whitewater rafting!</p>
+
             </article>
             </div>
         <section>
             <h2>History</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus aperiam nisi vel excepturi earum provident illo, eius corporis, dolorum aut, adipisci atque blanditiis dolorem quo. Porro possimus quibusdam eum itaque?</p>
+            <p>The Humble Beginnings: Primitive Rafts The story of rafts begins as a tale of necessity. Rafts were initially conceived as basic and reliable means of transportation across bodies of water. Picture early explorers and traders lashing logs or planks together to create these rudimentary vessels. Larger logs could be tethered to form sizeable rafts capable of carrying heavy loads. These primitive rafts served practical purposes—transporting construction materials, agricultural goods, and even livestock. They also allowed humans to venture beyond their immediate surroundings, expanding horizons across rivers and lakes.</p>
         </section>
-        <section>
+        <section >
             <h2>Adventure Awaits You!</h2>
             <figure><img src="images/rafting3.jpg" width="500" alt="rafting3"><figcaption> rafting1</figcaption></figure>
             <figure><img src="images/rafting4.jpg" width="500" alt="rafting4"><figcaption> rafting2</figcaption></figure>
@@ -66,6 +77,6 @@
 
         </nav>
     </footer>
-    
+</div> 
 </body>
 </html>
